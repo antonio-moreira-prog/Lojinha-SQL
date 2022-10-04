@@ -37,3 +37,11 @@ CREATE TABLE ordem(
     FOREIGN KEY(produto_id) REFERENCES produto(id),
     FOREIGN KEY(usuario_id) REFERENCES usuario(id)
 );
+-- Inserir 
+INSERT INTO usuario values
+    (1, "Antonio", "antonio.moreira@gmail.com", "1234");
+
+INSERT INTO produto values
+    (1, "Xiaomi 12", "Smartphone Xiaomi 12", 8999, 2);
+INSERT INTO produto values
+    (2, "Iphone 13 PRO", "Smartphone Iphone 13 PRO", 10999.99, 3);
